@@ -8,12 +8,12 @@ plugins {
 
 android {
     namespace = "de.szalkowski.activitylauncher"
-    compileSdk = 36
+    compileSdk = 34
 
     defaultConfig {
         applicationId = System.getenv("APPID") ?: "de.szalkowski.activitylauncher"
         minSdk = 16
-        targetSdk = 36
+        targetSdk = 34
         versionCode = 64
         versionName = "2.1.4"
 
